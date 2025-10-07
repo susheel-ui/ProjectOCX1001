@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:enabled="true"
+        android:title="Home"
+        android:checkable="true"
+        android:icon="@drawable/home_icon"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_orders"
+        android:enabled="true"
+        android:title="Orders"
+        android:icon="@drawable/orders_svg"/>
+    <item
+        android:id="@+id/nav_payments"
+        android:enabled="true"
+        android:title="Payments"
+        android:icon="@drawable/mobile_payment_done_2_svgrepo_com"
+        />
+    <item
+        android:id="@+id/nav_account"
+        android:enabled="true"
+        android:title="Account"
+        android:icon="@drawable/user_svgrepo_com"/>
+</menu>
