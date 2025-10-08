@@ -3,7 +3,29 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="color_Primary">#FFD600</color>
+    <color name="color_primary">#F9A825</color>
+    <color name="lightGrayForBackground">#D7D0D0</color>
+    <color name="green">#2E7D32</color>
+    <color name="red">#D84315</color>
 
 
+<!--    colors temp-->
+    <color name="wallet_header_background">#FFB74D</color>
+    <color name="wallet_card_gradient_start">#FFB74D</color>
+    <color name="wallet_card_gradient_end">#FFA726</color>
+    <color name="wallet_add_money_button">#F57C00</color>
+
+    <color name="text_credit_green">#4CAF50</color>
+    <color name="text_debit_red">#D32F2F</color>
+
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+<!--    color for history-->
+    <color name="colorPrimaryOrange">#F57C00</color>
+    <color name="backgroundColorLightGrey">#FAFAFA</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="icon_circle_background">#4D000000</color>
 </resources>
 

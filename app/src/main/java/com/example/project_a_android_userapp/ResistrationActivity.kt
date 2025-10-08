@@ -6,23 +6,22 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.project_a_android_userapp.databinding.ActivityLoginPageBinding
-import com.example.project_a_android_userapp.databinding.ActivityMainBinding
+import com.example.project_a_android_userapp.databinding.ActivityResistrationBinding
 
-class Login_Page : AppCompatActivity() {
-    lateinit var binding: ActivityLoginPageBinding
+class ResistrationActivity : AppCompatActivity() {
+    lateinit var binding: ActivityResistrationBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityLoginPageBinding.inflate(layoutInflater)
-enableEdgeToEdge()
+        enableEdgeToEdge()
+        binding  = ActivityResistrationBinding.inflate(layoutInflater)
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        binding.loginButton.setOnClickListener {
-            val intent = Intent(this, ResistrationActivity::class.java)
+        binding.buttonNext.setOnClickListener {
+            val intent = Intent(this, OTP_verifyActivity::class.java)
             startActivity(intent)
         }
     }

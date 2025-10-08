@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PostingMe</string>
+    <string name="app_name">PortingMe</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -14,4 +14,11 @@
         <item>🇮🇳 +91 ▼</item>
         <item>🇺🇸 +1 ▼</item>
     </string-array>
+    <string-array name="requirement_list">
+        <item>Select One of these</item>
+        <item>option 1</item>
+        <item>Option 2</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
